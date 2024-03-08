@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "domain.apps.DomainConfig",
     "rest_framework",
+    'ninja'
 ]
 
 MIDDLEWARE = [
