@@ -1,5 +1,15 @@
 # Entretien Technique
 
+## Instructions
+
+Le but de l'exercice est de simuler une situation réelle dans la journée d'un développeur Amarena.
+Toutes les sources d'informations sont autorisées, que ce soit les documentations, Google, ou tout simplement
+les personnes de l'entretien.
+
+Un fichier `requirements.txt` est disponible contenant tout les paquets nécessaires à l'entretien. N'hésitez-pas à créer
+un virtualenv (`python3 -m venv .venv` et `.venv/bin/activate`) pour être plus serein.
+
+
 ## Contexte
 
 La bibliothèque municipale de Château-sur-Mer a besoin d'un logiciel afin de connaître les livres qu'elle possède et si
@@ -31,10 +41,9 @@ nombre de modèles implémentés.
     * Last Name
     * Birth date
 
-Une API CRUD est disponible pour chacun de ces modèles.
-
 ## Règles Business
 
+* Il n'existe qu'un seul et unique livre pour une référence donnée dans la bibliothèque.
 * La lectrice ne peut emprunter qu'un livre à la fois.
 * La lectrice doit rendre le livre avant la date limite.
 * La lectrice doit payer une amende si elle rend le livre après la date limite.
@@ -68,9 +77,3 @@ Une API CRUD est disponible pour chacun de ces modèles.
 > acheter.
 
 
-## Instructions
-
-Un fichier `requirements.txt` à la racine de projet contient toutes les dépendences nécessaires au projet. N'hésitez pas
-à créer un `virtualenv` pour pouvoir travailler dans un environnement clos.
-
-N'hésitez pas à vous aider de toutes les resources dont vous jugerez nécessaire.
